@@ -1,4 +1,4 @@
-# Instructions
+# Instructions (2kyu)
 ## Given a mathematical expression as a string you must return the result as a number.
 
 ## Numbers

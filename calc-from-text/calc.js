@@ -156,6 +156,22 @@ e = "-2-3-2-2-1/-2-8-6-12";
 testSolvePrimitive(e);
 e = "-2*-12+5-7/-7+0.5*3";
 testSolvePrimitive(e);
+e = "12*-1";
+testSolvePrimitive(e);
+
+// console.log("solveWithBrackets");
+// const testSolveWithBrackets = (e) =>
+//   console.log(solveWithBrackets(e) === eval(e));
+// e = "1 - -(-(-(-4)))";
+// testSolveWithBrackets(e);
+// e = "2 / (2 + 3) * 4.33 - -6";
+// testSolveWithBrackets(e);
+// e = "((2.33 / (2.9+3.5)*4) - -6)";
+// testSolveWithBrackets(e);
+// e = "123.45*(678.90 / (-2.5+ 11.5)-(80 -19) *33.25) / 20 + 11";
+// testSolveWithBrackets(e);
+// e = "(123.45*(678.90 / (-2.5+ 11.5)-(((80 -(19))) *33.25)) / 20) - (123.45*(678.90 / (-2.5+ 11.5)-(((80 -(19))) *33.25)) / 20) + (13 - 2)/ -(-11) ";
+// testSolveWithBrackets(e);
 
 //\b(?:(?!^|\*|\/))-(?!\d\/|\*)|\b(?:(?!^|\*|\/))\+
 //эта штука выделяет -, которые не первые и перед которыми нет знаков *или-,
